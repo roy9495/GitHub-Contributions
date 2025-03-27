@@ -1,0 +1,8 @@
+.contribution-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%; /* Ensures the card stretches to fill the grid item */
+  max-width: 100%; /* Prevents overflow */
+  box-sizing: border-box; /* Includes padding and border in height/width calculations */
+}
